@@ -1,0 +1,13 @@
+numpy==2.2.2
+pandas==2.2.3
+pillow==11.1.0
+python==3.10.16
+scikit-learn==1.6.1
+scipy==1.15.1
+sentence-transformers==3.4.0
+sympy==1.13.1
+tokenizers==0.21.0
+torch==2.5.1
+transformers==4.48.1
+pandas==2.2.3
+decord
