@@ -1,8 +1,8 @@
-# CODE
+# Training Multi-Modal LLMs through Dialogue Planning for HRI
 
 ## Introduction
 
-In this repository, we share the training, testing, and evaluation code for **Training Multi-Modal LLMs through Dialogue Planning for HRI**, and we report only the method and results for MiniCPM since LLaVA was used just as a comparison for the first step.  
+In this repository, we share the training, testing, and evaluation code for **Training Multi-Modal LLMs through Dialogue Planning for HRI** accepted at [ACL 2025](https://2025.aclweb.org/), and we report only the method and results for MiniCPM since LLaVA was used just as a comparison for the first step.  
 The goal of this project is to develop a Multi-Modal Large Language Model (MLLM) capable of engaging in a dialogue within a Minecraft-like environment.  
 
 <img src="running_example.png" alt="example" width="300">
@@ -273,14 +273,44 @@ To produce the evaluation metrics, run the provided scripts, in the _evaluation_
             <img src="CQ-game-2702_small.png" alt="example1" width="300">
             <figcaption>CQ-game-2702</figcaption>
         </figure>
+        <br>
         <figure style="display: inline-block; margin: 10px;">
             <img src="CQ-game-6796_small.png" alt="example2" width="300">
             <figcaption>CQ-game-6796</figcaption>
         </figure>
+        <br>
         <figure style="display: inline-block; margin: 10px;">
             <img src="CQ-game-8747_small.png" alt="example3" width="300">
             <figcaption>CQ-game-8747 </figcaption>
         </figure>
     </div>
+
+    
+---
+
+## Citation
+```
+@inproceedings{hromei2025mmigludialogues,
+    title = "Training Multi-Modal LLMs through Dialogue Planning for HRI",
+    author = "Hromei, Claudiu Daniel  and
+            Borazio, Federico  and
+            Sensi, Andrea  and
+            Passone, Elisa  and
+            Croce, Danilo  and
+            Basili, Roberto",
+    editor = "Che, Wanxiang and
+            Nabende, Joyce and
+            Shutova, Ekaterina and
+            Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = aug,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.4/",
+    doi = "TBD",
+    pages = "TBD",
+}
+```
     
     
